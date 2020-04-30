@@ -12,7 +12,6 @@ body{text-align:center;overflow-y:scroll;font:calc(0.50em + 1vmin) monospace}pre
 <pre>
 
 <a href=/><b>&rarr; KOLTRAST</b></a>  <a href=/news.html>News</a>  <a href=/projects.html>Projects</a>  <a href=/writings.html>Writings</a>  <a href=/repository.html>Repository</a>  <a href=/blog.html>Blog</a>  <a href=/about.html>About</a> 
-
 ———————————————————————————————————————————————————————————————————————————————
    ___      ___      ___   ___      ___      ___      ___     ___             
   /\__\    /\  \    /\__\ /\  \    /\  \    /\  \    /\  \   /\  \\            
