@@ -10,7 +10,7 @@ cat <<EOF > /tmp/meow
 <meta name=Koltrast is one of the pseudonyme of the French artist Aurélien Mt.">
 <style>body{text-align:center;overflow-y:scroll;font:calc(0.75em + 1vmin)}pre pre{text-align:left;display:inline-block}img{max-width:57ch;display:block;height:auto;width:100%}@media(prefers-color-scheme:dark){body{background:#000;color:#fff}a{color:#6CF}}</style>
 <pre>
-<a href=/><b>&rarr; KOLTRAST</b></a>  <a href=/news>News</a>  <a href=/artworks>Artworks</a>  <a href=/writings>Writings</a>  <a href=/Repository>Repository</a>  <a href=/about>About</a> 
+<a href=/><b>&rarr; KOLTRAST</b></a>  <a href=/news>News</a>  <a href=/artworks>Artworks</a>  <a href=/writings>Writings</a>  <a href=https://github.com/koltrast>Repository</a>  <a href=/blog>Blog</a>  <a href=/about>About</a> 
 
 ———————————————————————————————————————————————————————————————————————————————
    ___      ___      ___   ___      ___      ___      ___     ___          
