@@ -34,7 +34,7 @@ _______________________________________________________________________________
 (ɔ) - 2017-2020 - CC BY-NC-ND - by koltrast
 
 
-<a href="%%SOURCE%%">View page source</a>
+<!-- <a href="%%SOURCE%%">View page source</a> -->
 
 
 </pre></pre>
