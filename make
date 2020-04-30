@@ -36,7 +36,7 @@ _______________________________________________________________________________
 </pre></pre>
 EOF
 
-rm    -f  docs/*.txt docs/*.html
+rm    -f  docs/*.txt docs/*.html docs/blog/mk-blog
 mkdir -p  docs
 cd        docs
 
