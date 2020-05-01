@@ -11,21 +11,24 @@ cat <<EOF > /tmp/meow
 body{text-align:center;overflow-y:scroll;font:calc(0.50em + 1vmin) monospace}pre pre{text-align:left;display:inline-block} img{max-width:57ch;display:block;height:auto;width:100%} @media(prefers-color-scheme:dark){body{background:#000;color:#fff}a{color:#6CF}}</style>
 <pre>
 
-<a href=/><b>&rarr; KOLTRAST</b></a>  <a href=/news.html>News</a>  <a href=/projects.html>Projects</a>  <a href=/writings.html>Writings</a>  <a href=/repository.html>Repository</a>  <a href=/blog.html>Blog</a>  <a href=/about.html>About</a> 
-———————————————————————————————————————————————————————————————————————————————
-   ___      ___      ___   ___      ___      ___      ___     ___             
-  /\__\    /\  \    /\__\ /\  \    /\  \    /\  \    /\  \   /\  \\            
- /:/ _/_  /::\  \  /:/  / \:\  \  /::\  \  /::\  \  /::\  \  \:\  \\           
-/::-"\__\/:/\:\__\/:/__/  /::\__\/::\:\__\/::\:\__\/\:\:\__\ /::\__\\          
-\;:;-",-"\:\/:/  /\:\  \ /:/\/__/\;:::/  /\/\::/  /\:\:\/__//:/\/__/           
- |:|  |   \::/  /  \:\__\\\/__/    |:\/__/   /:/  /  \::/  / \/__/              
-  \|__|    \/__/    \/__/          \|__|    \/__/    \/__/      .NEOCITIES.ORG 
-———————————————————————————————————————————————————————————————————————————————
+<a href=/><b>&rarr; KOLTRAST</b></a>  <a href=/news.html>News</a>  <a
+href=/projects.html>Projects</a>  <a href=/writings.html>Writings</a>  <a href=https://github.com/koltrast>Repository</a>  <a href=/blog.html>Blog</a>  <a href=/about.html>About</a> 
+
+————————————————————————————————————————————————————————————————————————
+   ___      ___      ___   ___      ___      ___      ___     ___     
+  /\__\    /\  \    /\__\ /\  \    /\  \    /\  \    /\  \   /\  \\    
+ /:/ _/_  /::\  \  /:/  / \:\  \  /::\  \  /::\  \  /::\  \  \:\  \\   
+/::-"\__\/:/\:\__\/:/__/  /::\__\/::\:\__\/::\:\__\/\:\:\__\ /::\__\\  
+\;:;-",-"\:\/:/  /\:\  \ /:/\/__/\;:::/  /\/\::/  /\:\:\/__//:/\/__/   
+ |:|  |   \::/  /  \:\__\\\/__/    |:\/__/   /:/  /  \::/  / \/__/      
+  \|__|    \/__/    \/__/          \|__|    \/__/    \/__/             
+                                                        .NEOCITIES.ORG 
+————————————————————————————————————————————————————————————————————————
 
 <pre>
 %%CONTENT%%
 
-_______________________________________________________________________________
+________________________________________________________________________
 (ɔ) - 2017-2020 - CC BY-NC-ND - by koltrast
 
 
