@@ -1,5 +1,3 @@
-
-
 git checkout build -- docs/ &&
 rm -rf *.txt *.html blog
 git mv -f docs/* . &&
