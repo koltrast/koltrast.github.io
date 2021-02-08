@@ -1,1 +1,1 @@
-https://koltrast.github.io
+https://koltrast.xyz
