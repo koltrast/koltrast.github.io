@@ -9,27 +9,17 @@ cat <<EOF > /tmp/meow
 <meta charset=utf-8>
 <meta name=Koltrast is one of the alias of the French artist Aurélien Mt. …">
 <style>
-body{text-align:center;overflow-y:scroll;font:calc(0.50em + 1vmin) monospace}pre pre{text-align:left;display:inline-block} img{max-width:57ch;display:block;height:auto;width:100%} @media(prefers-color-scheme:dark){body{background:#000;color:#fff}a{color:#6CF}}</style>
+body{text-align:center;overflow-y:scroll;font:calc(0.50em + 1vmin) monospace}pre pre{text-align:left;display:inline-block}.t{text-decoration:none} img{max-width:57ch;display:block;height:auto;width:100%} @media(prefers-color-scheme:dark){body{background:#000;color:#fff}a{color:#6CF}}</style>
 <pre>
 
+<a href=/ class=t style=color:#a00><b>&rarr; KOLTRAST</b></a>               <a href=/news>News</a>  <a href=/projects>Projects</a>  <a href=/writings>Writings</a>  <a href=https://github.com/koltrast>Github</a>  <a href=/about>About</a> <a href=/contact>Contact</a>
 
-<a href=/><b>&rarr; KOLTRAST</b></a>  <a href=/news>News</a>  <a href=/projects>Projects</a>  <a href=/writings>Writings</a>  <a href=https://github.com/koltrast>Repository</a>  <a href=/blog>Blog</a>  <a href=/about>About</a> 
-
-————————————————————————————————————————————————————————————————————————
-   ___      ___      ___   ___      ___      ___      ___     ___     
-  /\__\    /\  \    /\__\ /\  \    /\  \    /\  \    /\  \   /\  \\    
- /:/ _/_  /::\  \  /:/  / \:\  \  /::\  \  /::\  \  /::\  \  \:\  \\   
-/::-"\__\/:/\:\__\/:/__/  /::\__\/::\:\__\/::\:\__\/\:\:\__\ /::\__\\  
-\;:;-",-"\:\/:/  /\:\  \ /:/\/__/\;:::/  /\/\::/  /\:\:\/__//:/\/__/   
- |:|  |   \::/  /  \:\__\\\/__/    |:\/__/   /:/  /  \::/  / \/__/      
-  \|__|    \/__/    \/__/          \|__|    \/__/    \/__/   .GITHUB.IO
-————————————————————————————————————————————————————————————————————————
 
 <pre>
 %%CONTENT%%
 
 ________________________________________________________________________
-(ɔ) - 2017-2020 - CC BY-NC-ND - by koltrast
+                                                2017-2021 - by koltrast
 
 <!-- <a href="%%SOURCE%%">View page source</a> -->
 
