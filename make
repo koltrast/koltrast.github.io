@@ -7,13 +7,13 @@ cat <<EOF > /tmp/meow
 <!doctype html>
 <title>&rarr; koltrast</title>
 <meta charset=utf-8>
-<meta name=Koltrast is one of the alias of the French artist Aurélien Mt. …">
+<meta name=Koltrast // Aurélien Mt. ">
 <meta name=viewport content="width=device-width,initial-scale=1">
-<style>body{overflow-y:scroll;font:calc(0.50em + 1vmin) monospace,monospace}pre{margin:0;overflow-x:hidden}.t{text-decoration:none}@media(max-width:999px){body{font-size:1.94vw}}@media(prefers-color-scheme:dark){body{background:#000;color:#fff}a{color:#6CF}#l{color:#F33}#g{filter:invert(1)}}img,#b{max-width:72ch}span{display:inline-block}</style>
+<style>body{overflow-y:scroll;font:calc(0.50em + 1vmin) monospace, monospace}pre{margin:0;overflow-x:hidden}.t{text-decoration:none}@media(max-width:999px){body{font-size:1.94vw}}@media(prefers-color-scheme:dark){body{background:#000;color:#fff}a{color:#6CF}#l{color:#F33}#g{filter:invert(1)}}img,#b{max-width:72ch}span{display:inline-block}</style>
 <div style="display:table;margin:16px auto" id=a><div id=b><pre>
 <span><a href=/ class=t style=color:#a00><b>
 &rarr; KOLTRAST // 
-  Aurélien Mt.</b></a>                           <a href=/news>News</a>  <a href=/projects>Projects</a>  <a href=/writings>Writings</a>  <a href=/about>About</a>
+  Aurélien Mt.</b></a>                                 <a href=/projects>Projects</a>  <a href=/writings>Writings</a>  <a href=/about>About</a>
 
 
 <pre>
