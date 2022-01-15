@@ -5,6 +5,7 @@ Projects
 <a href='/projects/foresta' class=t>Forêt acousmatique</a>
 <a href='/projects/9liminalsmeters' class=t>9 mètres liminaux</a>
 <a href='/projects/endlesswest' class=t>Endless west</a>
+<a href='/projects/flicker' class=t>flicker</a>
 
 
 
