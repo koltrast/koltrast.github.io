@@ -13,7 +13,7 @@ cat <<EOF > /tmp/meow
 <div style="display:table;margin:16px auto" id=a><div id=b><pre>
 <span><a href=/ class=t style=color:#a00><b>
 &rarr; KOLTRAST // 
-  Aurélien Mt.</b></a>                                 <a href=/projects>Projects</a>  <a href=/writings>Writings</a>  <a href=/about>About</a>
+  Aurélien Mt.</b></a>                                 <a href=/projects class=t>Projects</a>  <a href=/writings class=t>Writings</a>  <a href=/about class=t,>About</a>
 
 
 <pre>
