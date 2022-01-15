@@ -2,13 +2,27 @@ Projects
 ————————————————————————————————————————————————————————————————————————
 
 
-<a href='/projects/foresta'>Forêt acousmatique</a>
-<a href='/projects/9liminalsmeters'>9 mètres liminaux</a>
-<a href='/projects/endlesswest'>endless west</a>
-<a href='/projects/stalker'>stalker 1/4000</a>
-<a href='/projects/fps'>Film Phase Screen</a>
-<a href='/projects/glaumur'>Glaumur</a>
-<a href='/projects/superproduction'>Superproduction</a>
+<a href='/projects/foresta' class=t>Forêt acousmatique</a>
+<a href='/projects/9liminalsmeters' class=t>9 mètres liminaux</a>
+<a href='/projects/endlesswest' class=t>Endless west</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--
+<a href='/projects/stalker' class=t>Stalker 1/4000</a>
+<a href='/projects/fps' class=t>Film Phase Screen</a>
+<a href='/projects/glaumur' class=t>Glaumur</a>
+<a href='/projects/superproduction' class=t>Superproduction</a>
 <a href='/projects/'>ANOD:IO</a>
 -->
