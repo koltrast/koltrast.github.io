@@ -1,21 +1,14 @@
+Projects
+————————————————————————————————————————————————————————————————————————
 
 
+<a href='/projects/foresta'>Forêt acousmatique</a>
+<a href='/projects/9liminalsmeters'>9 mètres liminaux</a>
+<a href='/projects/endlesswest'>endless west</a>
+<a href='/projects/stalker'>stalker 1/4000</a>
+<a href='/projects/fps'>Film Phase Screen</a>
+<a href='/projects/glaumur'>Glaumur</a>
+<a href='/projects/superproduction'>Superproduction</a>
 
-                     I N   C O N S T R U C T I O N
-                     N                           O
-                                                 I
-                     C                           T
-                     O                           C
-                     N                           U
-                     S                           R
-                     T                           T
-                     R                           S
-                     U                           N
-                     C                           O
-                     T                           C
-                     I
-                     O                           N
-                     N O I T C U R T S N O C   N I
-					  
-
+<a href='/projects/'>ANOD:IO</a>
 
