@@ -1,8 +1,0 @@
-
-Flicker
-————————————————————————————————————————————————————————————————————————
-
-<iframe src="/projects/flicker/flicker.html" frameborder="0" ></iframe>
-
-
-<a href='/projects/flicker/flicker.html' class=t>flicker – original</a>
