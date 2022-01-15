@@ -9,6 +9,6 @@ Projects
 <a href='/projects/fps'>Film Phase Screen</a>
 <a href='/projects/glaumur'>Glaumur</a>
 <a href='/projects/superproduction'>Superproduction</a>
-
+<!--
 <a href='/projects/'>ANOD:IO</a>
-
+-->
