@@ -1,534 +1,217 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-  <title>
-    &rarr; koltrast // Aurélien Mt.
-  </title>
+  <title>&rarr; Aurélien Mt. //</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <script src="main.js" defer></script> -->
 </head>
 
-<body class="w-100 sans-serif">
-
-  <header class="w-100 pa3 ph5-ns bg-white fixed-l z-1">
-    <div class="flex flex-wrap flex-nowrap-ns items-center mw9 center w-100">
-      <a href="#home" title="Home" class="nowrap dib f5 f4-ns fw6 mt2 mb1 link black-90 hover-dark-red">
-        &rarr; koltrast //</br> Aurélien Mt.
-      </a>
-      <nav class="flex w-100 justify-start justify-end-ns">
-        <!--
-        <a href="#about" title="About" class="f6 fw6 hover-blue link black-70 mr2 mr3-m mr4-l dib">
-          About
-        </a>
-        -->
-        <a href="#projects" title="Projects" class="f6 fw6 hover-blue link black-70 mr2 mr3-m mr4-l dib">
-          Projets
-        </a>
-        <a href="#cv" title="CV" class="f6 fw6 hover-blue link black-70 mr2 mr3-m mr4-l dib">
-          CV
-        </a>
-        <!--
-        <a href="#writings" title="Writings" class="f6 fw6 hover-blue link black-70 mr2 mr3-m mr4-l dib">
-          Writings
-        </a>-->
-        <!--
-        <a href="#contact" title="contact" class="f6 fw6 hover-blue link black-70 mr2 mr3-m mr4-l dib">
-          Contact
-        </a>
-        -->
+<body">
+  <header id="home">
+      <a href="#home">&rarr; Aurélien Mt. //</a>
+      <nav class="crumbs">
+        <ul>
+          <li class="crumb"><a href="#projects">Projects</a></li>
+          <li class="crumb"><a href="#informations">Informations</a></li>
+          <li class="crumb"><a href="#contact">Contact</a></li>
+      </ul>
       </nav>
-    </div>
   </header>
-
-  <div class="cf w-100">
-
-    <section class="min-vh-100 bg-white black-80 pv5 pv6-ns" id="home">
-      <div class=" cf center mw8 ph3 ph5-ns">
-        <p class="f-subheadline-l f4 f2-m fw6 measure mt7 ">
-          Il n'y a rien à voir.
-        </p>
+  
+  <section>
+    <div class="full-height">
+      <div class="vertical-center huge">
+      <h1>Il n'y a rien à voir.</h1>
       </div>
-    </section>
-    <!--
-    <section class="bg-washed-green black-80  min-vh-100 pv5 pv6-ns" id="about">
-      <div class="ph3 ph5-ns">
-        <div class="center mw8 ">
-          <h3 class="f5 fw6 ttu tracke">About</h3>
-        </div>
-        <div class="cf w-100 center mw8">
-          <p class="f4 f2-m mt0 db fl w-100 f-subheadline-l lh-copy measure mb4 fw6">
-            Who am I?
-          </p>
-          <p class="fl w-100 w-50-l mh0 mt0 pr0 pr3-l measure lh-copy f5 f4-l">
-            Hi, I'm Aurélien Mt., I'm a multidisciplinary artist based in
-            France. Mostly used to work with cinematographic materials, I'm
-            fascinated with their time relations and phenomenology.
-          </p>
-          <p class="fl w-100 w-50-l mh0 mt0 pl0 pl3-l measure lh-copy f5 f4-l">
-            Through my work, I reflect on time and its modality through
-            cinematographic and new media arts. My research explores the
-            existing permeability between different elements of cinema such as
-            sound, image - fixed or moving - light, the passage from one image
-            to the next, etc...<br>
-            Computers has always been my main tools, recently I'm plunged myself
-            into code learning to automate process and explore the world of
-            generative art.
-          </p>
-        </div>
+    </div>
+    <div>
+      <h3>(Important note)</h3>
+      <p>
+        This website is undergoing a major update and is currently running with the bare minimum of css.<br/>
+        Despite not being beautiful, it is functional and its content is up to date.
+      </p>
+    </div>
+  </section>
+  
+  <section id="projects">
+    <div>
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="#filmdeproj">Film de projecteur</a></li>
+        <li><a href="#stalker">1/4000s 50Hz Stalker</a></li>
+        <li><a href="#9liminalsmeters">Fragment n°1 : 9 mètres liminaux</a></li>
+        <li><a href="#endlesswest">Endless west</a></li>
+        <li><a href="#glamur">Glámur</a></li>
+        <li><a href="#acousmaticforest">Acousmatic Forest</a></li>
+        <li><a href="#flicker">Flicker</a></li>
+        <!-- <li><a href="#superproduction">Superproduction</a></li>
+        <li><a href="#fps">Film Phase Screen</a></li>
+        <li><a href="#hexa">L'Œuvre d'art à l'ère de sa reproductibilité</a></li> -->
+        <li><a href="#up">Union Pragmatique</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="filmdeproj">
+    <div>
+      <h3>Film de Projecteur</h3>
+      <img src="images/filmproj01.jpeg">
+      <p>
+        This film - a tribute to Lettrist cinema and in particular that of Roland Sabatier - is a film governed by the life of the bulb, thus offering a definition of cinema made up of a space (that of the projection), of light (then of its absence) and of time (duration).<br>
+        It is a film doomed to disappear, at the end of the projection, by the rupture of the filament of the bulb, but also in the long run following the progressive prohibition of production, in Europe, of incandescent lamps of which the halogen lamps are part.
+        
+        Translated with www.DeepL.com/Translator (free version)
+      </p>
+      <p>
+        installation/projection, carousel (analog) film, approx. 2000h.
+      </p>
+    </div>
+  </section>
+  
+  <section id="stalker">
+    <div>
+      <h3>1/4000s 50Hz Stalker</h3>
+      <img src="images/DSC_2975.jpg">
+      <p>
+        At first glance, this edition presents a beam of light on a black background. If you look closely you can see objects, silhouettes, faces, landscapes... some clues offer the possibility to understand that these prints are photographs capturing the instant of an electron beam on the surface of a cathode ray screen. Thus revealing an image in three times: fantomatic, present and future.<br>
+        As the pages scroll, the title appears, /Stalker/, revealing the origin of the images. Each of them represents a tiny fraction of a shot from Tarkovsky's film, echoing this element that only quotes itself without ever revealing itself.
+      </p>
+      <p>
+        photo book, unique edition, 2018
+      </p>
+    </div>
+  </section>
+  
+  <section id="9liminalsmeters">
+    <div>
+      <h3>Fragment n°1 : 9 mètres liminaux</h3>
+      <div class="iframe-container">
+        <iframe src="https://player.vimeo.com/video/282134192?h=4c5d82d644&amp;badge=0&amp;transparent=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0"></iframe>
       </div>
-    </section>
--->
-
-    <section class="bg-washed-blue black-80 min-vh-100 pv5 pv5 ph3 ph5-ns" id="projects">
-      <div class="mw8 center">
-        <h1 class="fl w-100 mt5 pt5 f5 ttu  fw6">Projects</h1>
-        <!--
-        <article class="pv2 fl w-100 ">
-          <h2 class="f4 f1-ns fw6 mb2 i">t-0</h2>
-          <p class="f5 f4-ns measure lh-copy mt0">
-          </p>
-        </article>
-        -->
-        <div class="cf">
-          <article class="pv2 fl w-100 w-50-l pr0 pr2-l">
-            <h2 class="f4 f2-ns fw6 mb2">Films</h2>
-            <p class="f5 measure lh-copy mt0">
-              <a href="#acousmaticforest" class="black dim" title="Forêt acoumatique">
-                Forêt acousmatique
-              </a>
-              </br>
-              <a href="#9liminalsmeters" class="black dim" title="9 mètres liminaux">
-                Fragment n°1 : 9 mètres liminaux
-              </a>
-              </br>
-              <a href="#endlesswest" class="black dim " title="Endless West">
-                Endless west
-              </a></br>
-
-              <a href="#filmdeproj" class="black dim" title="Film de Projecteur">
-                Film de projecteur
-              </a>
-            </p>
-          </article>
-          <article class="pv2 fl w-100 w-50-l pl0 pl2-l">
-            <h2 class="f4 f2-ns fw6 mb2">Divers</h2>
-            <p class="f5 measure lh-copy mt0">
-              <a href="#flicker" class="black dim" title="Flicker">
-                Flicker
-              </a>
-            </p>
-          </article>
-          <!-- 
-        </div>
-        <div class="cf">
-          <article class="pv2 fl w-100 w-50-l pr0 pr2-l">
-            <h2 class="f4 f2-ns fw6 mb2">Audio works</h2>
-            <p class="f5 measure lh-copy mt0">
-              <a href="#glaumur" class="black dim" title="Glaumur">
-                Glaumur
-              </a>
-            </p>
-          </article>
-          <article class="pv2 fl w-100 w-50-l pl0 pl2-l">
-            <h2 class="f4 f2-ns fw6 mb2">Devlopment</h2>
-            <p class="f5 measure lh-copy mt0">
-              Comming soon
-            </p>
-          </article>
-          <article class="pv2 fl w-100 w-50-l pl0 pr2-l">
-            <h2 class="f4 f2-ns fw6 mb2">Archive</h2>
-            <p class="f5 measure lh-copy mt0">
-              Comming soon
-            </p>
-          </article>
-        </div> -->
-        </div>
-    </section>
-
-    <section class="bg-white black-80 pv5 pv6-ns" id="acousmaticforest">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw8">
-          <h2 class="f4 f2-ns fw6 mb2">Forêt acousmatique</h2>
-          <div class="fl w-100">
-            <div class="aspect-ratio aspect-ratio--8x5">
-              <iframe class="aspect-ratio--object z-0"
-                src="https://player.vimeo.com/video/282287051?h=f6b6f81e40&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed"
-                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0"></iframe>
-            </div>
-          </div>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            Le soleil se couche, la forêt plonge petit à petit dans l’obscurité. Cet aveuglement progressif ouvre sur
-            une perception alternative ; l’image bascule vers le son, en ne laissant ce dernier que comme repère.
-            Expérience d’une forêt dont le voile ne laisse apparaître que l’invisible.
-          </p>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            Projection/installation, film (numérique) sonore, 80’, 2014
-          </p>
-        </div>
+      <p>
+        The aim of Fragment n°1: 9 liminal meters is twofold. First, it invites the viewer to experience an element of cinematic language recurrent in suspense films in an immersive aspect. It also presents itself as a testimony of a shooting/performance in a 9 meter corridor, at a speed of about 18 cm per minute.<br>
+        Throughout the shooting, there is a sort of rite of passage where there camera (the viewer) is caught between two unknowns; what is behind - out of the back field - and what is approaching - the room plunged in the dark. - The camera (the viewer) thus becomes the present caught between the past and the future, that threshold that is constantly renewed throughout the progress.<br>
+        The piece requires a physical and temporal commitment from the spectator. The slowness facing the capacity of concentration and there will of implication of the latter, without which the reading of this piece is not possible.
+      </p>
+      <p>
+        projection/installation, silent (digital) film, 50 min.
+      </p>
+    </div>
+  </section>
+  
+  <section id="endlesswest">
+    <div>
+      <h3>Endless West</h3>
+      <div class="iframe-container">
+        <iframe src="https://player.vimeo.com/video/282118838?h=128b78e212&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0"></iframe>
       </div>
-    </section>
-
-    <section class="bg-white black-80 pv5 pv6-ns" id="9liminalsmeters">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw8">
-          <h2 class="f4 f2-ns fw6 mb2"> Fragment n°1 : 9 mètres liminaux</h2>
-          <div class="fl w-100">
-            <div class="aspect-ratio aspect-ratio--8x5">
-              <iframe class="aspect-ratio--object z-0"
-                src="https://player.vimeo.com/video/282134192?h=4c5d82d644&amp;badge=0&amp;transparent=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479/embed"
-                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0"></iframe>
-            </div>
-          </div>
-
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            Le jeu de Fragment n°1 : 9 mètres liminaux est double. D’abord il invite le spectateur à expérimenter un
-            élément de langage cinématographique récurant dans les films à suspens dans un aspect immersif. Il se
-            présente également comme un témoignage d’un tournage / performance dans un couloir de 9 mètres, à une
-            vitesse d’environ 18 cm par minute.
-          </p>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            Tout au long du travelling, il s’opère une sorte de rite de passage où la caméra (le spectateur) se trouve
-            pris entre deux inconnus ; ce qui se trouve derrière — hors champ arrière — et ce qui approche — la pièces
-            plongé dans le noir. — La camera (le spectateur) devient ainsi le présent pris entre le passé et le devenir,
-            ce seuil qui se renouvelle de manière constante tout au long de l’avancement.
-          </p>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            La pièce requiert un engagement à la fois physique et temporel du spectateur. La lenteur faisant face à la
-            capacité de concentration et à la volonté d’implication de ce dernier, sans lesquelles la lecture de cette
-            pièce n’est possible.
-          </p>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            projection/installation, film (numérique) muet, 50 min.
-          </p>
-        </div>
+      <p>
+        A détournement and pastiche of Sergio Leone's The Good, the Bad and the Ugly, Endless West presents a temporal expansion, eternalizing a moment of suspense from the original film, to the point of making it unbearable and increasing the absurdity of the scene.<br>
+        This endless film - it stops just before the shot - raises questions about relationships of expectation, both in the viewer's posture towards the film and in the desire for the denouement.
+      </p>
+      <p>
+        installation/projection, (digital) sound film, approx. 24 min.
+      </p>
+    </div>
+  </section>
+  
+  <section id="glamur">
+    <div>
+      <h3>Glámur</h3>
+      <div class="iframe-container">
+        <iframe src="https://player.vimeo.com/video/285185042?h=abe5e24ac8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+        </iframe>
       </div>
-    </section>
-
-    <section class="bg-white black-80 pv5 pv6-ns" id="endlesswest">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw8 ">
-          <h2 class="f4 f2-ns fw6 mb2">Endless West</h2>
-          <div class="fl w-100">
-            <div class="aspect-ratio aspect-ratio--8x5">
-              <iframe class="aspect-ratio--object z-0"
-                src="https://player.vimeo.com/video/282118838?h=128b78e212&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed"
-                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0"></iframe>
-            </div>
-          </div>
-
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            Détournement et pastiche du film Le Bon, La Brute et Le Truand de Sergio Leone, Endless West présente une expansion temporelle, éternisant un moment de suspens du film original, au point de le rendre insupportable et d’augmenter le caractère absurde de la scène.
-          </p>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            Ce film sans fin — il s’arrête juste avant le plan de tir — soulève des questions sur des rapports d’attente, à la fois dans la posture du spectateur face au film ainsi que dans le désir du dénouement.
-          </p>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            installation/projection, film (numérique) sonore, env. 24 min.
-          </p>
-        </div>
+      <p>
+        Abandoned in 1966 and reputed to be haunted, the herring factory in Hjalteyri, located in the north of Iceland, is today partially transformed into an art center. Initially composed for this center and to be heard in this same place, <i>Glámur</i> is inscribed in this abandonment, in these deserted places, in the history of this small fishing village of about 46 inhabitants.<br>
+        This sound piece calls upon the <i>Saga of Grettir</i>, and is set in the region where the main character finds himself cursed after a fight with a ghost, Glámur. It reveals the sounds and sonorities of the ruined spaces, making them emerge as invisible elements whose presence comes to haunt and inhabit the place at times.<br>
+        Today ex-situ, <i>Glámur</i> has been rethought in the form of a score so that it fits into the continuity of the ruin of the factory from which it originates, that it resists in time by reproducing itself.
+      </p>
+      <p>
+        Installation†, audio piece, 4 min 52
+      </p>
+    </div>
+  </section>
+           
+  <section id="acousmaticforest">
+    <div id="divId" class="border">
+      <h3>Forêt acousmatique</h3>
+      <div class="iframe-container">
+        <iframe src="https://player.vimeo.com/video/282287051?h=f6b6f81e40&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0"></iframe>
       </div>
-    </section>
+      <p>
+        The sun sets, the forest plunges little by little into darkness. This progressive blindness opens up an alternative perception; the image shifts towards the sound, leaving the latter only as a reference point. Experience of a forest whose veil only lets the invisible appear.
+      </p>
+      <p>
+        Projection/installation, (digital) sound film, 80', 2014
+      </p>
+    </div>
+  </section>
 
-    <section class="bg-white black-80 pv5 pv6-ns" id="filmdeproj">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw8">
-          <h2 class="f4 f2-ns fw6 mb2">Film de Projecteur</h2>
-          <div class="fl w-100">
-            <div class="">
-              <img class="br2 db w-100" src="images/filmproj01.jpeg">
-            </div>
-          </div>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            installation/projection, carousel (analog) film, env. 2000h.
-          </p>
-        </div>
+  <section id="flicker">
+    <div>
+      <h3>Flicker</h3>
+      <div class="iframe-container">
+        <iframe class="aspect-ratio--object z-0" src="/flicker/flicker.html" frameborder="0"></iframe>
       </div>
-    </section>
-
-    <section class="bg-white black-80 pv5 pv6-ns" id="flicker">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw8 ">
-          <h2 class="f4 f2-ns fw6 mb2">Flicker</h2>
-          <div class="fl w-100">
-            <div class="aspect-ratio aspect-ratio--8x5">
-              <iframe class="aspect-ratio--object z-0" src="/flicker/flicker.html" frameborder="0"></iframe>
-            </div>
-          </div>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            This was my first website, it might have something to show… or not!<br>
-            <a href="/flicker/flicker.html" class="black dim" title="Flicker">Here is the original page.</a>
-          </p>
-          <p class="fl w-100 mh0 mt3 pl0 lh-copy f5 f4-l">
-            website, 2016
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!--
-    <section class="bg-washed-green black-80 pv5 pv6-ns" id="writings">
-      <div class="ph3 ph5-ns">
-        <div class="mw7 center">
-          <h1 class="fl w-100 mt5 f5 ttu fw6">Writings</h1>
-          <article class="pv2 fl w-100 ">
-            <h2 class="f4 f1-ns fw6 mb2"></h2>
-            <p class="f5 f4-ns measure lh-copy mt0">
-            </p>
-          </article>
-          <div class="cf">
-            <article class="pv2 fl w-100 w-50-l pl0 pl2-l">
-              <h2 class="f4 f2-ns fw6 mb2">Essay & other</h2>
-              <p class="f5 measure lh-copy mt0">
-                Comming soon
-              </p>
-            </article>
-            <article class="pv2 fl w-100 w-50-l pr0 pr2-l">
-              <h2 class="f4 f2-ns fw6 mb2">Uncreative Writings</h2>
-              <p class="f5 measure lh-copy mt0">
-                The following texts are generated by t9, mainly from data that
-                was part of my life at the time. I consider them as a first step
-                in generative art.
-              </p>
-              <p class="f5 measure lh-copy mt0">
-                <a href="#20180411" class="black dim" title="20180411">20180411</a></br>
-                <a href="#20170324" class="black dim" title="20170324">20170324</a></br>
-                <a href="#20170323" class="black dim" title="20170323">20170323</a></br>
-              </p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class=" bg-white black-80 pv5 pv6-ns" id="20180411">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw8">
-          <h2 class="f4 f2-ns fw6 mb2">20180411</h2>
-          <p class="fl w-100 lh-copy f5 f4-l">
-            180411
-          </p>
-          <p class="fl w-100 lh-copy f5 f4-l">
-            C'est pas grave du coup j'ai fait un premier jet pour la journée avec
-            tes amis à partage un album de famille de ma vie je t'aime fort et te
-            dis ça je ne sais plus de truc vege je suis arrivé la semaine prochaine
-            pour la prochaine fois que je pourrais passer en revue de la journée si
-            possible je suis dans la semaine dernière je suis arrivé la même
-            problème sur la semaine dernière et puis c'est pas grave du coup j'ai
-            fait un premier jet pour la journée si possible de faire un premier jet
-            pour la journée avec les membres du bureau du club Expertes fête des
-            pères et des problèmes d'affichage de l'ennui créative tête et je ne
-            suis arrivé la même problème sur la journée si possible je suis dans la
-            semaine dernière je me permets donc peut-être demain si vous êtes en
-            mesure d'assurer l'intégrité et j'arrive pas tout de même que le diplôme
-            d'ingénieur de la journée avec les émetteurs numériques de l'ennui c'est
-            pas mal j'aime beaucoup la photo du jour au crâne et j'arrive pas tout
-            de même pour les membres du conseil d'administration du collège à quelle
-            date je suis arrivé la même problème que le goût du coup je ne suis
-            arrivé à quelle date je ne sais plus quoi penser à moi tu peux pas
-            répondre directement sur la journée si tu veux faire avec tes parents
-            pour le moment c'est la semaine dernière et puis je vous prie d'agréer
-            Monsieur mes sincères remerciements je suis dans la semaine dernière je
-            me permets donc peut-être demain matin pour le couloir et le diplôme
-            d'ingénieur de la mort qui expliquerait que le goût du travail en peux
-            pas le temps d'obturation je vous prie d'agréer Monsieur mes sincères
-            remerciements.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class=" bg-white black-80 pv5 pv6-ns" id="20170324">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw8">
-          <h2 class="f4 f2-ns fw6 mb2">20170324</h2>
-          <p class="fl w-100 lh-copy f5 f4-l">
-            Jegharikke
-          </p>
-          <p class="fl w-100 lh-copy f5 f4-l">
-            Jeg har ikke vært for noen år siden har ikke vært for noen år siden har
-            klær i alle fall jeg har ikke vært for noen år siden har ikke vært for
-            noen år siden har ikke vært for noen år siden har ikke vært for noen år
-            siden har ikke vært for noen år siden har ikke vært for noen år siden
-            har ikke vært for noen år siden har ikke vært for noen år siden har ikke
-            vært for noen år siden har ikke vært for noen år siden har ikke vært for
-            noen år siden har ikke vært for noen år siden har ikke vært for noen år
-            siden har ikke vært for noen år siden har ikke vært for noen år siden
-            har ikke vært for noen år siden har ikke vært for noen år siden har ikke
-            vært for noen år siden har ikke vært for noen år siden har ikke vært for
-            noen år siden har ikke vært for noen år siden har ikke vært for noen år
-            siden har ikke vært for noen år siden har ikke vært for noen år siden
-            har ikke vært for noen år siden har ikke vært for noen år siden har ikke
-            vært for noen år siden har ikke vært for noen år siden har ikke vært for
-            noen år siden har ikke vært for noen år siden har ikke vært for noen år
-            siden har ikke vært for noen år siden har ikke vært for noen år siden
-            har ikke vært for noen år siden har ikke vært for noen år siden har ikke
-            vært for noen år siden har ikke vært for noen år...
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class=" bg-white black-80 pv5 pv6-ns" id="20170323">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw8">
-          <h2 class="f4 f2-ns fw6 mb2">20170323</h2>
-          <p class="fl w-100 lh-copy f5 f4-l">
-            17032357359
-          </p>
-          <p class="fl w-100 lh-copy f5 f4-l">
-            Jeg er ikke så mange andre som is eating his buying jeg elsker deg også
-            med deg jeg elsker jeg elsker jeg elsker deg også jeg har ikke vært for
-            dårlig kvalitet på alle aldre og og og og og og og og og is not yours
-            ikke så mye som om hvor mye jeg har ikke så mange andre har klær jeg har
-            klær jeg har ikke så mye å si det jeg elsker deg jeg elsker jeg har ikke
-            vært for dårlig jeg elsker deg jeg elsker jeg har klær i kjørebanen jeg
-            elsker deg jeg har klær i alle aldre som om hvor og is not my gloves har
-            ikke så mange som is not yours jeg elsker jeg har ikke vært så mange
-            andre har klær jeg elsker deg også med i kjørebanen i alle aldre og og
-            og og is i kjørebanen i alle fall jeg har klær jeg har ikke så mye å
-            gjøre deg også med i kjørebanen jeg har ikke vært så mange som is eating
-            later in january jeg elsker jeg elsker deg jeg elsker jeg har klær i
-            kjørebanen i kjørebanen jeg har ikke så mange andre som is not my gloves
-            jeg elsker jeg elsker deg også jeg elsker jeg har klær i alle fall ikke
-            noe så mye som om det er jeg har klær jeg har ikke vært så mye å si noe
-            så mye som om hvor og is not yours ikke vært for noen år så mange som om
-            det jeg elsker deg også jeg elsker jeg elsker deg jeg har klær i
-            kjørebanen i kjørebanen jeg har ikke så mye å gjøre deg også med deg jeg
-            elsker jeg elsker deg jeg har klær jeg elsker deg også med i alle aldre
-            som om hvor mye som is not my glove jeg har ikke vært så mange andre har
-            ikke så mange som om det er ikke så mye som is eating later som om det
-            jeg har klær i alle fall jeg elsker jeg har ikke vært for dårlig jeg
-            elsker jeg elsker deg jeg elsker jeg har klær jeg har ikke så mange
-          </p>
-        </div>
-      </div>
-    </section>
--->
-
-    <section class=" bg-white black-80 pv5 pv6-ns" id="cv">
-      <div class="ph3 ph5-ns">
-        <div class="center mw8 ">
-          <h3 class="f5 fw6 ttu tracke">CV</h3>
-          <p class="fl w-100 lh-copy f5 f4-l b">
-            Experience (selection)
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l">
-            2021
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l">
-            <span class="i">Kermesse pour le temps présent</span>, Exposition, avec le collectif Union Pragmatique,
-            Rencontres
-            Internationales Mondes Multiples, Antre Peaux, Bourges<br>
-            <span class="i">Superproduction</span>, Projection, cinéma du Foyer St François, Bourges<br>
-            <span class="i">Comment Devenir</span>, Co-réalisation Projection, avec le collectif Union Pragmatique,
-            cinéma du Foyer
-            St François, Bourges
-          </p>
-
-          <p class="fl w-100 lh-copy f6 f5-l">
-            2020
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l"></p>
-          Résidence de création, P9, St Nazaire<br>
-          </p>
-
-          <p class="fl w-100 lh-copy f6 f5-l">
-            2019
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l">
-            <span class="i">anod i/o</span>, Performance, en duo avec l’artiste sonore Jon Haure-Place, Performance,
-            festival
-            Odyssée, Bourges
-          </p>
-
-          <p class="fl w-100 lh-copy f6 f5-l">
-            2018
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l"></p>
-          <span class="i">anod i/o (allow in)</span>, Performance, en duo avec l’artiste sonore Jon Haure-Place,
-          cONcErn,
-          Cosne-d’Allier<br>
-          <span class="i">Film de projecteur</span>, Installation film, Exposition des diplômés, La Box, Bourges<br>
-          anod i/o, Performance, en duo avec l’artiste sonore Jon Haure-Place, Chaosphonie, Palais Jacques
-          Cœur, Bourges
-          </p>
-
-          <p class="fl w-100 lh-copy f6 f5-l">
-            2017
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l">
-            <span class="i">Sur les Traces de l’Aura</span>, Résidence - Projet, avec Collectif Commod, cONcErn,
-            Cosne-d’Allier<br>
-            <span class="i">Glamur</span>, Résidence - Stage - Projet, Centre d’art Verksmiðjan, Hjalteyri, Islande
-          </p>
-
-          <p class="fl w-100 lh-copy f6 f5-l">
-            2016
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l">
-            <span class="i">Replay</span>, Conférence performée, avec Eunsoo Kim, Friday Island, Gudde Wëllen,
-            Luxembourg<br>
-            <span class="i">Urban Music</span>, Exposition collective - Atelier, avec Jerôme Fino, La Box, Bourges
-          </p>
-
-          <p class="fl w-100 lh-copy f5 f4-l b">
-            Formation
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l">
-            DNSEP École Nationale Supérieure d’Arts de Bourges, 2018<br>
-            DNAP École Nationale Supérieure d’Arts de Bourges, 2016
-          </p>
-          <p class="fl w-100 lh-copy f5 f4-l b">
-            Divers (selection)
-          </p>
-          <p class="fl w-100 lh-copy f6 f5-l">
-            Membre du collectif d’artiste Union Pragmatique<br>
-            Régisseur de production Arts Visuel, Antre Peaux, Bourges<br>
-            Ingénieur son, <span class="i">The Panic Monkey</span>, Pierre Coulibeuf<br>
-            Mixage son, <span class="i">Trengewekë hna oth</span>, Rémi Boinot<br>
-            Mixage son, <span class="i">Remémoration</span>, Eunsoo Kim
-          </p>
-        </div>
-      </div>
-    </section>
-    <!--
-
-
-    <section class="min-vh-60 bg-white black-80 pv5 pv6-ns" id="contact">
-      <div class="ph3 ph5-ns">
-        <div class="cf w-100 center mw7">
-          <p class="f4 f2-m mt0 db fl w-100 f-subheadline-l lh-copy measure mt5 mb3  fw6">
-            Say hello.
-          </p>
-          <div class="pv4 ph3 ph5-ns">
-            <a class="link dim gray dib h2 w2 br-100 mr3 pa2 bg-near-white ba b--black-10"
-              href="https://twitter.com/zerokltrst" title="">
-              <svg data-icon="twitter" viewBox="0 0 32 32" style="fill:currentcolor">
-                <title>twitter icon</title>
-                <path
-                  d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4">
-                </path>
-              </svg>
-            </a>
-            <a class="link dim gray dib br-100 h2 w2 mr3 pa2 bg-near-white ba b--black-10"
-              href="https://github.com/koltrast" title="">
-              <svg data-icon="github" viewBox="0 0 32 32" style="fill:currentcolor">
-                <title>github icon</title>
-                <path
-                  d="M0 18 C0 12 3 10 3 9 C2.5 7 2.5 4 3 3 C6 3 9 5 10 6 C12 5 14 5 16 5 C18 5 20 5 22 6 C23 5 26 3 29 3 C29.5 4 29.5 7 29 9 C29 10 32 12 32 18 C32 25 30 30 16 30 C2 30 0 25 0 18 M3 20 C3 24 4 28 16 28 C28 28 29 24 29 20 C29 16 28 14 16 14 C4 14 3 16 3 20 M8 21 A1.5 2.5 0 0 0 13 21 A1.5 2.5 0 0 0 8 21 M24 21 A1.5 2.5 0 0 0 19 21 A1.5 2.5 0 0 0 24 21 z">
-                </path>
-              </svg>
-            </a>
-          </div>
-
-        </div>
-      </div>
-    </section>
--->
-  </div>
-
+      <p>
+        This is a <em>situationist</em> website. It might have something to show… or not! Most of the content is hidden from the spectator…<br/>
+        <a href="/flicker/flicker.html" class="black dim" title="Flicker">Here is the original page.</a>
+      </p>
+      <p>
+        website, 2016
+      </p>
+    </div>
+  </section>
+  
+  <section id="up">
+    <div>
+      <h3>Looking for Union Pragmatique's works?</h3>
+      <p>
+        It's <a href="https://unionpragmatique.com">there</a>
+      </p>
+    </div>
+  </section>
+  
+  <section id="informations">
+    <div>
+      <h2>Informations</h2>
+      <p>
+        Hi, I'm Aurélien Mt., I'm a multidisciplinary artist based in France. Mostly used to work with cinematographic materials, I'm fascinated with their time relations and phenomenology.
+      </p>
+      <p>
+        Through my work I reflect on time and its modalities through the cinematographic and new media art. My plastic research explores the existing permeability between different constituent elements of cinema, photography and sound.<br>
+        Computers always has been my main tools, recently I started learning to code to explore the world of generative art as a step in the modality of future.
+      </p>
+      <p>
+        On the other hand, the projects carried out within the collective Union Pragmatique approach a reflection on the playful as well as the place of the young artistic creation and the economy in which this last one is registered.<br>
+        I lives and works in duo with the artist Eunsoo Kim.
+      </p>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <div>
+      <p>
+        Aurélien Mt.<br/>
+        Based in Bourges, FR
+      </p>
+      <p>
+        aurelien.mt@pm.me<br/>
+        <a href="mailto:aurelien.mt@pm.me" title="CV">CV on demand</a> 
+      </p>
+      <p>
+        <a href="https://www.instagram.com/aurl_mt/" title="Instagram ">instagram</a>,
+        <a href="https://github.com/koltrast" title="Instagram " >github</a>
+      </p>
+      </p>
+    </div>
+  </section>
+  
 </body>
-
 </html>
