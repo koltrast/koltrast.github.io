@@ -3,7 +3,6 @@ header {
   align-items: center;
   /* Remove the next line if you want the span to appear next to the h1 */
   justify-content: space-between;
-  margin-top: 0;
 }
 
 body {
@@ -17,7 +16,6 @@ body {
   
 section {
   margin-bottom: 4rem;
-  padding: 0;
 }
 
 a {
