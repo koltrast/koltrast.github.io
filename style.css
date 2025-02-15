@@ -1,83 +1,204 @@
-header {
-  display: flex;
-  align-items: center;
-  /* Remove the next line if you want the span to appear next to the h1 */
-  justify-content: space-between;
+/* Global Styles */
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif;
-  line-height: 1.6;
-  max-width: 38rem;
-  padding: 2rem;
-  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff; /* Default light mode background */
+  color: #3a3335; /* Default light mode text color */
 }
 
-section {
+/* Full-Height Container */
+.full-height-container {
+  width: 100%;
+  height: 100vh;
+  /*display: flex;*/
+  /*justify-content: left;*/
+}
+
+/* Main Content Area */
+.main-content {
+  background-color: #fff; /* Default light mode background */
+  color: #3a3335; /* Default light mode text color */
+  font-size: 0.9rem;
+  padding: 1rem;
+  max-width: 48rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .main-content {
+    padding: 5rem;
+  }
+}
+
+.main-content a {
+  color: #948989; /* Default light mode link color */
+}
+
+.main-content a:hover {
+  color: #7c6a6a; /* Default light mode hover color */
+  text-decoration: underline;
+}
+
+/* Header Section */
+.header-section {
+  margin-top: 2rem;
+  margin-bottom: 9rem;
+  text-align: right;
+}
+
+/* Heading Styles */
+.name-heading {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Section Divider Style */
+.section-divider {
+  border: 0;
+  border-top: 1px solid #d8d4d4;
+  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
-a {
-  color: #e33;
+/* Subheading Styles */
+.subheading {
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
+/* Section Container */
+.section-container {
+  margin-bottom: 3rem;
+}
+
+/* Grid Layout */
+@media screen and (min-width: 30rem) {
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 10em 1fr;
+  }
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  max-width: 28rem;
+  margin-left: 1rem;
+}
+
+.content-wrapper > p:first-child {
+  margin-top: 0;
+}
+
+.content-wrapper-project {
+  max-width: 42em;
+}
+
+.content-wrapper-project img {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* List Items */
+.list-items {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* List Item Margin */
+.list-item {
+  margin-bottom: 0.5em;
+}
+
+/* Paragraph Margin */
+.description-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Project Item Margin */
+.project-item {
+  margin-bottom: 2rem;
+}
+
+/* Flexbox Layout */
+.flex-layout {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Project Description */
+.project-description {
+  margin-left: 0;
+}
+
+.project-description p {
+  font-size: 0.9em;
+}
+
+/* Project Date/Role */
+.project-date-role {
+  font-size: 0.9em;
+  color: #766b6b;
+  text-align: right;
+}
+
+/* Line Height */
+.text-body {
+  line-height: 1.5;
+}
+
+/* Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
   body {
-    background: #111;
-    color: #fff;
+    background: #222; /* Dark background */
+    color: #fff; /* White text color */
   }
-  a {
-    color: #6cf;
+
+  .main-content {
+    background-color: #222; /* Dark background for main content */
+    color: #eaeaea; /* Lighter text color */
   }
-}
 
-.iframe-container {
-  overflow: hidden;
-  /* 16:9 aspect ratio */
-  padding-top: 56.25%;
-  position: relative;
-}
+  .main-content a {
+    color: #bbb; /* Lighter link color */
+  }
 
-.iframe-container iframe {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
+  .main-content a:hover {
+    color: #fff; /* Hover color in dark mode */
+    text-decoration: underline;
+  }
 
-img {
-  max-width: 38rem;
-  width: 100%;
-}
+  .section-divider {
+    border-top: 1px solid #444; /* Darker divider line */
+  }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
+  .header-section {
+    margin-top: 2rem;
+    margin-bottom: 9rem;
+    text-align: right;
+  }
 
-.crumbs ol {
-  list-style-type: none;
-  padding-left: 0;
-}
+  .subheading {
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
 
-.crumb {
-  display: inline-block;
-}
-
-.full-height {
-  height: 100vh;
-}
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.huge {
-  font-size: x-large;
+  .project-date-role {
+    color: #aaa; /* Lighter text color for project date/role */
+  }
 }
