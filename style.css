@@ -53,6 +53,10 @@ body {
   text-align: right;
 }
 
+.proj {
+  margin-bottom: 4rem;
+}
+
 /* Heading Styles */
 .name-heading {
   font-size: 1.2em;
